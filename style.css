@@ -10,7 +10,6 @@
 ========================= */
 
 :root {
-
     --bg-main: #07070b;
     --bg-card: #10101a;
     --bg-alt: #141421;
@@ -152,7 +151,6 @@ select {
 }
 
 @keyframes loaderPulse {
-
     from {
         opacity: 0.4;
         transform: scale(0.97);
@@ -171,7 +169,6 @@ select {
 
 .header {
     position: fixed;
-
     top: 0;
     left: 0;
 
@@ -237,7 +234,6 @@ select {
     content: "";
 
     position: absolute;
-
     left: 0;
     bottom: -7px;
 
@@ -676,7 +672,6 @@ select {
 }
 
 @keyframes marquee {
-
     from {
         transform: translateX(0);
     }
@@ -684,7 +679,6 @@ select {
     to {
         transform: translateX(-50%);
     }
-
 }
 
 
@@ -1801,7 +1795,6 @@ footer {
 
     .food-card:hover {
         transform: none;
-
         box-shadow: none;
     }
 
