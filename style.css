@@ -51,11 +51,8 @@ html {
 body {
     background: var(--bg-main);
     color: var(--text-primary);
-
     font-family: "DM Sans", sans-serif;
-
     line-height: 1.6;
-
     overflow-x: hidden;
 }
 
@@ -102,12 +99,9 @@ select {
     display: flex;
     align-items: center;
     gap: 12px;
-
     color: var(--accent-gold);
-
     font-size: 0.8rem;
     font-weight: 700;
-
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -115,7 +109,6 @@ select {
 .section-label span {
     width: 35px;
     height: 1px;
-
     background: var(--accent-gold);
 }
 
@@ -126,7 +119,6 @@ select {
 
 .loader {
     position: fixed;
-
     inset: 0;
 
     display: flex;
@@ -153,13 +145,9 @@ select {
 
 .loader-logo {
     color: #ffffff;
-
     font-family: "Playfair Display", serif;
-
     font-size: 2.8rem;
-
     letter-spacing: 6px;
-
     animation: loaderPulse 1.3s infinite alternate;
 }
 
@@ -222,9 +210,7 @@ select {
 
 .logo {
     font-size: 1.8rem;
-
     font-weight: 700;
-
     letter-spacing: 3px;
 }
 
@@ -238,15 +224,12 @@ select {
 #nav {
     display: flex;
     align-items: center;
-
     gap: 30px;
 }
 
 #nav a {
     position: relative;
-
     color: var(--text-secondary);
-
     font-size: 0.95rem;
 }
 
@@ -280,7 +263,6 @@ select {
 .header-actions {
     display: flex;
     align-items: center;
-
     gap: 15px;
 }
 
@@ -391,7 +373,7 @@ select {
             rgba(7, 7, 11, 0.55),
             rgba(7, 7, 11, 0.75)
         ),
-        url("images/hero.jpg")
+        url("hero.jpeg")
         center / cover no-repeat;
 }
 
@@ -440,7 +422,6 @@ select {
 
 .hero h1 em {
     font-style: normal;
-
     color: var(--accent-gold);
 }
 
@@ -487,7 +468,6 @@ select {
 
 .btn-gold {
     background: var(--accent-gold);
-
     color: #ffffff;
 }
 
@@ -510,9 +490,7 @@ select {
 
 .btn-light:hover {
     background: #ffffff;
-
     color: #07070b;
-
     transform: translateY(-3px);
 }
 
@@ -524,12 +502,11 @@ select {
 
     bottom: 35px;
     left: 8%;
-
     right: 8%;
 
     display: flex;
-    justify-content: space-between;
 
+    justify-content: space-between;
     align-items: center;
 
     z-index: 2;
@@ -620,7 +597,6 @@ select {
 
 .experience-badge strong {
     font-size: 2rem;
-
     line-height: 1;
 }
 
@@ -975,6 +951,7 @@ select {
     min-height: 500px;
 
     display: flex;
+
     align-items: center;
     justify-content: center;
 
@@ -1471,7 +1448,7 @@ footer {
                 rgba(7, 7, 11, 0.9),
                 rgba(7, 7, 11, 0.65)
             ),
-            url("images/hero.jpg")
+            url("hero.jpeg")
             center / cover no-repeat;
     }
 
